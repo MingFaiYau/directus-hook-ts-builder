@@ -1,4 +1,5 @@
 const path = require('path')
+const externals = require('./webpack.externals')
 
 module.exports = {
   mode: 'production',
@@ -15,6 +16,7 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
   },
+  externals,
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
