@@ -1,5 +1,7 @@
 # Directus-hook-ts-builder
 
+https://docs.directus.io/guides/api-hooks/
+
 1, Install library
 
 > yarn
